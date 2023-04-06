@@ -1,10 +1,18 @@
 package codingTest.utilTest;
 
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
+
 public class ArrayTest {
 	public static void main(String[] args) {
-		int[] m1 = {1,2,3};
-		int[] m2 = {4,5,6};
-		Object[] o = {m1,m2};
-		System.out.println(((int[])o[1])[2]);
+		Object[] arr = new Object[3];
+		for (int i = 0; i < arr.length; i++) {
+			int[] a = {1,3};
+			arr[i]= a;
+		}
+		for (int i = 0; i < arr.length; i++) {
+			System.out.println(Arrays.toString((int[]) arr[i]));
+		}
 	}
 }

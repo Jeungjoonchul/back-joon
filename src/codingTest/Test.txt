@@ -1,0 +1,5 @@
+pakage codingTest;
+
+public class Test{
+	String memo="memo";
+}

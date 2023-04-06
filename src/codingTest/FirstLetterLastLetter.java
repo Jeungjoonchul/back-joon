@@ -16,5 +16,6 @@ public class FirstLetterLastLetter {
 		}
 		br.close();
 		System.out.println(sb);
+
 	}
 }
